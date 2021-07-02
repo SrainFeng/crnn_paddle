@@ -21,7 +21,8 @@ CRNN Chinese text recognition implement with paddle
     20456343_4045240981.jpg 89 201 241 178 19 94 19 22 26 656
     20457281_3395886438.jpg 120 1061 2 376 78 249 272 272 120 1061
     ...
-```
+
+
 ### Or your own data
 1. Edit **lib/config/OWN_config.yaml** DATA:ROOT to you image path
 ```angular2html
