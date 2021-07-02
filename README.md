@@ -37,18 +37,18 @@ CRNN Chinese text recognition implement with paddle
 ```
 ## Train
 ```angular2html
-   [run]CUDA_VISIBLE_DEVICES=0 python train.py --cfg lib/config/360CC_config.yaml
-or [run]CUDA_VISIBLE_DEVICES=0 python train.py --cfg lib/config/OWN_config.yaml
+   [run] CUDA_VISIBLE_DEVICES=0 python train.py --cfg lib/config/360CC_config.yaml
+or [run] CUDA_VISIBLE_DEVICES=0 python train.py --cfg lib/config/OWN_config.yaml
 ```
 
 ## Demo
 ```angular2html
-   [run] python demo.py --image_path images/test.png --checkpoint to/your/checkpoints/path
+   [run] CUDA_VISIBLE_DEVICES=0 python demo.py --image_path images/test.png --checkpoint to/your/checkpoints/path
 ```
 
 ## Eval Images
 ```angular2html
-   [run] python val.py --checkpoint to/your/checkpoints/path --val_dataset to/your/images/path
+   [run] CUDA_VISIBLE_DEVICES=0 python val.py --checkpoint to/your/checkpoints/path --val_dataset to/your/images/path
 ```
 
 ## References
